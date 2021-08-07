@@ -55,4 +55,18 @@
       }
     }
   }
+  .footer {
+    display: block;
+    margin: 15px auto 30px auto;
+    font-weight: 300;
+    color: #bababa;
+    font-size: 0.7em;
+    a {
+      text-decoration: none;
+      color: #bababa;
+    }
+    a:hover {
+      opacity: 0.85;
+    }
+  }
 }
