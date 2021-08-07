@@ -6,4 +6,4 @@ https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-proje
 
 DEMO: https://franco14lorenzo.github.io/drum-machine
 
-![demo](https://ibb.co/cF4JXds)
+![demo](https://i.ibb.co/fpjMG7T/demo.png)
