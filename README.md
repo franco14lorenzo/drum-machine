@@ -8,4 +8,4 @@ https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-proje
 
 DEMO: https://franco14lorenzo.github.io/drum-machine/
 
-![demo](https://i.ibb.co/fpjMG7T/demo.png)
+![demo](https://i.ibb.co/3rV44H8/drum-machine.png)
