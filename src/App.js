@@ -5,6 +5,8 @@ import {bankOne, bankTwo} from './keySounds'
 import { Switch, Button } from '@material-ui/core';
 
 function App() {
+
+  const sliderRef = useRef(null)
   
   let audio
   let audioq = useRef()
@@ -18,35 +20,41 @@ function App() {
   let audioc = useRef()
 
   window.document.onkeyup = (event) => {
-
-    let keypress = event.key
+    console.log(event.code);
+    let keypress = event.code
     switch (keypress){
-      case ("q" || "Q"):
+      case ("KeyQ"):
         playSound("Q")
         break
-      case ("w" || "W"):
+     
+      case ("KeyW"):
         playSound("W")
         break
-      case ("e" || "E"):
+      case ("KeyE"):
         playSound("E")
         break
-      case ("a" || "A"):
+      case ("KeyA"):
         playSound("A")
         break
-      case ("s" || "S"):
+      case ("KeyS"):
         playSound("S")
         break
-      case ("d" || "D"):
+      case ("KeyD"):
         playSound("D")
         break
-      case ("z" || "Z"):
+      case ("KeyZ"):
         playSound("Z")
         break
-      case ("x" || "X"):
+      case ("KeyX"):
         playSound("X")
         break
-      case ("c" || "C"):
+      case ("KeyC"):
         playSound("C")
+        break
+      case ('Space'):
+       
+        console.log('alohaaa');
+        spacePress()
         break
       default:
         return    
@@ -56,6 +64,9 @@ function App() {
   const [soundName, setSoundName] = useState("ON");
   const [bank, setBank] = useState(bankOne);
 
+  const spacePress = () => {
+   sliderRef.current.click()
+  }
   const switchBank = () => {
     setBank((bank) => {
       if (bank === bankOne){
@@ -118,6 +129,8 @@ function App() {
       Bank One
       </p>
       <Switch
+      title="Press Spacebar"
+        ref={sliderRef}
         defaultChecked
         color="default"
         inputProps={{ 'aria-label': 'checkbox with default color' }}
