@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drum-machine/static/css/main.4120de63.chunk.css",
+    "main.css": "/drum-machine/static/css/main.1252623a.chunk.css",
     "main.js": "/drum-machine/static/js/main.dc0260c8.chunk.js",
     "main.js.map": "/drum-machine/static/js/main.dc0260c8.chunk.js.map",
     "runtime-main.js": "/drum-machine/static/js/runtime-main.433f0939.js",
@@ -10,14 +10,14 @@
     "static/js/3.ba2d11ee.chunk.js": "/drum-machine/static/js/3.ba2d11ee.chunk.js",
     "static/js/3.ba2d11ee.chunk.js.map": "/drum-machine/static/js/3.ba2d11ee.chunk.js.map",
     "index.html": "/drum-machine/index.html",
-    "static/css/main.4120de63.chunk.css.map": "/drum-machine/static/css/main.4120de63.chunk.css.map",
+    "static/css/main.1252623a.chunk.css.map": "/drum-machine/static/css/main.1252623a.chunk.css.map",
     "static/js/2.6bfc37d3.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.6bfc37d3.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/drum-machine/static/media/bakcground-metalizado.4799a5fe.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.433f0939.js",
     "static/js/2.6bfc37d3.chunk.js",
-    "static/css/main.4120de63.chunk.css",
+    "static/css/main.1252623a.chunk.css",
     "static/js/main.dc0260c8.chunk.js"
   ]
 }
